@@ -1,3 +1,9 @@
-h1{ 
-    color:aqua ;
+body{ 
+    background: #05a39b;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+    ;
 }
