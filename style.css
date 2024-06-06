@@ -1,9 +1,37 @@
-body{ 
-    background: #05a39b;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
-nav{
+body {
+    color: #b18787;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
     display: flex;
-    justify-content: space-around;
-    
-    ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #6e5353;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+display: inline-block;
+font-size: 25px;
+color: #6d4e4e;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: .3s;
 }
